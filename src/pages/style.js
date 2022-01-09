@@ -12,9 +12,19 @@ export const Search = styledComponents.section`
   flex-direction: column;
   justify-content: center;
   background-color: #FFF;
-  padding: 20px;
+  padding: 24px;
 `;
 
 export const Icon = styledComponents.img`
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+`;
+
+export const Wrapper = styledComponents.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+export const Map = styledComponents.div`
+  background-color: red;
+  width: 500px;
 `;
