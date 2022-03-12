@@ -12,7 +12,7 @@ const ImageDiv = styledComponents.div`
 `;
 
 const Title = styledComponents.span`
-  font-family: ${(props) => props.theme.fonts.fontFamily}};
+  font-family: ${(props) => props.theme.fonts.fontFamily};
   color: #FFF;
   font-size: 16px;
   margin: 8px;
