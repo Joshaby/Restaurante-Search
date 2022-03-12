@@ -11,7 +11,7 @@ import restaurante from '../assets/restaurante.png';
 
 const Home = () => {
   const [inputValue, setInputValue] = useState('');
-  const [modalOpened, setModalOpen] = useState(false);
+  const [modalOpened, setModalOpen] = useState(true);
 
   const settings = {
     dots: false,
@@ -43,7 +43,6 @@ const Home = () => {
             <ImageCard photo={restaurante} title="Nome do restaurante" />
             <ImageCard photo={restaurante} title="Nome do restaurante" />
           </Carousel>
-          <button onClick={() => setModalOpen(true)}>Abrir modal</button>
         </Search>
         <RestaurantCard photo={restaurante} />
       </Container>
